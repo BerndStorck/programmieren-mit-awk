@@ -1,0 +1,80 @@
+1 Konzepte und Möglichkeiten
+
+  awk ist sowohl Werkzeug - geeignet für die Bewältigung von kleinen Aufgaben,
+  wie sie täglich anfallen - als auch Programmiersprache […]
+
+1.1 awk im täglichen Einsatz
+
+  Als Werkzeug hilft awk im täglichen Umgang mit Daten. Viele unangenehme, mehr
+  oder weniger mechanische Datenmanipulationen können schnell, elegant und
+  arbeitssparend mit awk bewältigt werden. […]
+
+1.2 Konzepte der Sprache awk
+
+  Es wird auf folgende Punkte eingegangen:
+
+  - Anwendungsbereiche
+  - awk als Interpretersprache
+  - awk und Unix
+  - Aufbau eines awk-Programms
+  […]
+
+2 Lernteil
+
+  In diesem Kapitel lernen Sie grundlegende Konzepte und Funktionen der Sprache
+  awk anhand einer Reihe kleinerer Programme kennen, die Sie an Ihrem Rechner
+  nachvollziehen können.
+
+3 awk - Sprachbeschreibung
+
+  Aufbau eines awk-Programms
+  Elemente der Sprache
+  Konvertierung von Datentypen
+  Ein- und Ausgaben
+  Auswahlbedingungen
+  Aktionen
+  Ausführen eines awk-Programms
+  Kommunikation mit der Shell
+
+3.1 Aufbau eines awk-Programms
+
+  awk-Programme bestehen aus bis zu drei Abschnitten: dem BEGIN-Teil, dem
+  Hauptteil und einem END-Teil. Wenigstens einer der drei Abschnitte muß
+  vorhanden sein. […]
+
+3.2 Formatregeln
+
+  […]
+
+3.3 Elemente der Sprache
+3.3.1 Kommentare
+
+  Kommentare in einem awk-Programm werden mit einem # eingeleitet und gehen bis
+  zum Ende einer Zeile.
+
+3.3.2 Konstanten
+
+  awk unterscheidet zwei Typen von Konstanten:
+
+  - Zahlen,
+  - Zeichenfolgen.
+
+3.3.3 Reguläre Ausdrücke
+
+  awk unterstützt reguläre Ausdrücke für die Formulierung von
+  Zeichenfolgen-Suchmustern (patterns): Zeichenfolgen entsprechen diesen
+  Suchmustern (die Suchmuster treffen zu) oder sie entsprechen ihnen nicht (die
+  Suchmuster treffen nicht zu). Reguläre Ausdrücke werden immer in Schrägstriche
+  (/) eingeschlossen. […]
+
+
+4 Nachschlageteil
+
+5 Anwendungsbeispiele
+
+  Konvertierung von Datenformaten
+  Dateiverwaltung und -bearbeitung
+  Büro- und kaufmännische Anwendungen
+  Kleine Nützlichkeiten und Spielereien
+
+6 Anhang
